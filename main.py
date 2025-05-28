@@ -407,7 +407,7 @@ async def home():
     <body>
         <div class="container">
             <h1>📚 Processador de Bibliografia</h1>
-            <h3>Sistema criado para buscar ISBN e ajustar a categoria automaticamente no Google Books</h3>
+            <h3>Sistema criado para buscar ISBN e ajustar a categoria automaticamente com base no Google Books</h3>
             <h3>Leva em média 2 minutos para cada 100 referências</h3>
             
             <div class="upload-area" onclick="document.getElementById('fileInput').click()">
