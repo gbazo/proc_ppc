@@ -321,7 +321,7 @@ async def home():
                 border-radius: 10px;
                 box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             }
-            h1 {
+            h1,h2,h3 {
                 color: #333;
                 text-align: center;
             }
@@ -407,6 +407,8 @@ async def home():
     <body>
         <div class="container">
             <h1>📚 Processador de Bibliografia</h1>
+            <h3>Sistema criado para buscar ISBN e categoria no Google Books</h3>
+            <h3>Leva em média 2 minutos para cada 100 referências</h3>
             
             <div class="upload-area" onclick="document.getElementById('fileInput').click()">
                 <p>📤 Clique para selecionar o arquivo Excel ou arraste aqui</p>
