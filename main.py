@@ -416,10 +416,6 @@ async def home():
                 <input type="file" id="fileInput" accept=".xlsx,.xls" onchange="uploadFile(this)">
             </div>
             
-            <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
-                Selecionar Arquivo
-            </button>
-            
             <div class="progress-container" id="progressContainer">
                 <div class="progress-bar">
                     <div class="progress-fill" id="progressFill">0%</div>
